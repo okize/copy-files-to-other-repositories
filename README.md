@@ -46,7 +46,7 @@ This action can be triggered by:
           required: false
   ```
 
-  As a result you will be able to run your workflow manually by providing specific repository name. If name is not provided, action will fallback to run against all repositores. If wrong repo name is provided under `repo_name`, the action will fail.
+  As a result you will be able to run your workflow manually by providing specific repository name. If name is not provided, action will fallback to run against all repositories. If wrong repo name is provided under `repo_name`, the action will fail.
 
   <img src="workflow_dispatch_custom_repo.png" alt="flow diagram" width="40%">
 
